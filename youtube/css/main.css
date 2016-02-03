@@ -93,6 +93,9 @@ nav img {
   vertical-align: middle;
 }
 
+
+
+
 /*-------- section ------ */
 
 #wrapper {
@@ -101,7 +104,16 @@ nav img {
   border: 1px solid #d3d3d3;
 }
 
-section {
+aside {
+  margin: 10px;
+  height: 1500px;
+  width: 400px;
+  background: #fff;
+  float: right;
+}
+
+
+#video {
   height: 500px;
   width: 880px;
   padding: 10px;
@@ -111,10 +123,22 @@ section {
   float: left;
 }
 
-aside {
+.description {
+  height: 180px;
+  width: 880px;
+  padding: 10px;
   margin: 10px;
-  height: 800px;
-  width: 400px;
+  margin-left: 20px;
   background: #fff;
-  float: right;
+  float: left;
+}
+
+#comments {
+  height: 300px;
+  width: 880px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  background: #fff;
+  float: left;
 }
