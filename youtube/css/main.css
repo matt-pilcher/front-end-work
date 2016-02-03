@@ -95,6 +95,12 @@ nav img {
 
 /*-------- section ------ */
 
+#wrapper {
+  height: 1000px;
+  margin: 2px;
+  border: 1px solid #d3d3d3;
+}
+
 section {
   height: 500px;
   width: 880px;
