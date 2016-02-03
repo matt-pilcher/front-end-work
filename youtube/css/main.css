@@ -104,14 +104,6 @@ nav img {
   border: 1px solid #d3d3d3;
 }
 
-aside {
-  margin: 10px;
-  height: 1500px;
-  width: 400px;
-  background: #fff;
-  float: right;
-}
-
 
 #video {
   height: 500px;
@@ -141,4 +133,34 @@ aside {
   margin-left: 20px;
   background: #fff;
   float: left;
+}
+
+aside {
+  padding: 18px;
+  margin: 10px;
+  height: 1220px;
+  width: 400px;
+  background: #fff;
+  float: right;
+}
+
+.recommended {
+  float: left;
+  margin: 5px;
+
+}
+
+.info {
+  width:220px;
+  float: right;
+  margin-left: 10px;
+}
+
+h3 {
+  margin-top: 2px;
+  line-height: 120%;
+}
+
+p {
+  line-height: 50%;
 }
