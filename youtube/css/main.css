@@ -158,9 +158,43 @@ aside {
 
 h3 {
   margin-top: 2px;
+  margin-bottom: 2px;
   line-height: 120%;
 }
 
-p {
+p.small {
+  color: #696969;
+  margin-top: 15px;
   line-height: 50%;
+}
+
+.thumbnail {
+  float: left;
+  margin-right: 10px;
+}
+
+.user {
+  color: #696969;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn-subscribe {
+  position: relative;
+  z-index: 100;
+  padding: 3px 5px;
+  margin-top: 7px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #fefefe;
+  background: #e62117;
+  border: 1px solid #ef2106;
+  border-radius: 0;
+}
+
+.btn-subscribe + .count {
+  color: #777;
+  background: #fafafa;
+  border-color:#696969; 
 }
