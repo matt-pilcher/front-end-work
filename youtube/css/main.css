@@ -169,7 +169,7 @@ h3 {
   line-height: 120%;
 }
 
-p.small {
+.small {
   color: #696969;
   margin-top: 15px;
   line-height: 50%;
@@ -257,4 +257,12 @@ p.small {
 
 .video-controls .vote {
   float: right;
+}
+
+.comment-box {
+  padding: 4px 10px 20px;
+  margin: 12px;
+  margin-left: 0;
+  color: #aaa;
+  border: 1px solid #ddd;
 }
