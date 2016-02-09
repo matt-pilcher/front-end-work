@@ -93,10 +93,28 @@ nav img {
   vertical-align: middle;
 }
 
+/*-------- typography ------ */
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  line-height: 120%;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+
+}
 
 
 
-/*-------- section ------ */
+/*-------- content ------ */
 
 #wrapper {
   height: 1000px;
@@ -132,39 +150,8 @@ nav img {
   float: left;
 }
 
-.comments {
-  height: 400px;
-  width: 880px;
-  padding: 10px;
-  margin: 10px;
-  margin-left: 20px;
-  background: #fff;
-  float: left;
-}
 
-.comment-box {
-  padding: 10px 10px 20px;
-  margin: 15px;
-  margin-left: 0;
-  color: #aaa;
-  border: 1px solid #ddd;
-}
-
-.comment-item {
-  padding: .75em;
-}
-
-.user-name {
-  margin-left: 12px;
-  font-weight: 700;
-  color: #128ee9;
-  vertical-align: top;
-}
-
-.comment-wrapper {
-  margin-top: 6px;
-  margin-left: 60px;
-}
+/*-------- sidebar ------ */
 
 aside {
   padding: 18px;
@@ -181,16 +168,15 @@ aside {
 
 }
 
+.thumbnail {
+  float: left;
+  margin-right: 10px;
+}
+
 .info {
   width:220px;
   float: right;
   margin-left: 10px;
-}
-
-h3 {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  line-height: 120%;
 }
 
 .small {
@@ -199,10 +185,8 @@ h3 {
   line-height: 50%;
 }
 
-.thumbnail {
-  float: left;
-  margin-right: 10px;
-}
+
+/*-------- subscription ------ */
 
 .user {
   color: #696969;
@@ -244,14 +228,14 @@ h3 {
   margin-top: -12px;
 }
 
-.likes-bar .likes {
+.likes {
   float: left;
   width: 74%;
   height: 2px;
   background: #167ac6;
 }
 
-.likes-bar .dislikes {
+.dislikes {
   float: left;
   width: 26%;
   height: 2px;
@@ -265,13 +249,13 @@ h3 {
   border-top: 1px solid #ddd;
 }
 
-.video-controls .views {
+.views {
   float: right;
   margin-top: -40px;
   font-size: 19px;
 }
 
-.video-controls .icons {
+.icons {
   margin-right: 5px;
   font-size: 20px;
   line-height: 20px;
@@ -279,6 +263,26 @@ h3 {
   vertical-align: middle;
 }
 
-.video-controls .vote {
+.vote {
   float: right;
+}
+
+/*-------- comments ------ */
+
+.comments {
+  height: 400px;
+  width: 880px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  background: #fff;
+  float: left;
+}
+
+.comment-box {
+  padding: 10px 10px 20px;
+  margin: 15px;
+  margin-left: 0;
+  color: #aaa;
+  border: 1px solid #ddd;
 }
