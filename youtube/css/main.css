@@ -132,14 +132,38 @@ nav img {
   float: left;
 }
 
-#comments {
-  height: 300px;
+.comments {
+  height: 400px;
   width: 880px;
   padding: 10px;
   margin: 10px;
   margin-left: 20px;
   background: #fff;
   float: left;
+}
+
+.comment-box {
+  padding: 10px 10px 20px;
+  margin: 15px;
+  margin-left: 0;
+  color: #aaa;
+  border: 1px solid #ddd;
+}
+
+.comment-item {
+  padding: .75em;
+}
+
+.user-name {
+  margin-left: 12px;
+  font-weight: 700;
+  color: #128ee9;
+  vertical-align: top;
+}
+
+.comment-wrapper {
+  margin-top: 6px;
+  margin-left: 60px;
 }
 
 aside {
@@ -257,12 +281,4 @@ h3 {
 
 .video-controls .vote {
   float: right;
-}
-
-.comment-box {
-  padding: 4px 10px 20px;
-  margin: 12px;
-  margin-left: 0;
-  color: #aaa;
-  border: 1px solid #ddd;
 }
