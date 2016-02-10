@@ -13,7 +13,7 @@ body {
 /*-------- header ------ */
 
 header {
-  height: 67px;
+  height: 57px;
   padding: 10px;
   background-color: #fff;
   width: 100%;
@@ -29,13 +29,13 @@ header {
 
 
 #logo {
-  height: 50px;
-  width: 90px;
+  height: 43px;
+  width: 80px;
   padding: 5px;
 }
 
 .search {
-  padding: 10px;
+  padding: 5px;
   width: 40%;
   float: left;
   line-height: 36px;
@@ -49,7 +49,7 @@ header {
 }
 
 header > nav {
-  padding: 15px;
+  padding: 10px;
   float: right;
 }
 
@@ -141,7 +141,7 @@ h4 {
 }
 
 .description {
-  height: 180px;
+  height: auto;
   width: 880px;
   padding: 10px;
   margin: 10px;
@@ -156,7 +156,7 @@ h4 {
 aside {
   padding: 18px;
   margin: 10px;
-  height: 1220px;
+  height: auto;
   width: 400px;
   background: #fff;
   float: right;
@@ -270,7 +270,7 @@ aside {
 /*-------- comments ------ */
 
 .comments {
-  height: 400px;
+  height: auto;
   width: 880px;
   padding: 10px;
   margin: 10px;
