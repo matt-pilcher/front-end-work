@@ -1,4 +1,4 @@
-/* Reset */
+/* CSS Reset */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -57,11 +57,13 @@ table {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+.signup,
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  width: 800px;
 }
+.signup,
 .container {
   padding-left: 30px;
   padding-right: 30px;
@@ -81,7 +83,7 @@ table {
   width: 25%;
 }
 .col-3-4 {
-  width: 75%;
+  width: 70%;
 }
 
 /*
@@ -101,4 +103,83 @@ table {
 .group {
   clear: both;
   *zoom: 1;
+}
+
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+.header {
+  background: #6f3680;
+  padding: 50px 0 10px 0;
+}
+.logo {
+  float: left;
+  height: 30px;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  padding-top: 10px;
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+}
+
+/*
+  ========================================
+  Signup
+  ========================================
+*/
+
+.signup {
+
+}
+.info-box {
+  border: 1px solid blue;
+  background: gray;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.account-info input,
+.account-info select {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.account-info input {
+  width: 100%;
+}
+
+.account-action label {
+  margin-bottom: 15px;
+  display: block;
+
 }
