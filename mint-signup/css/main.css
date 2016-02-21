@@ -46,6 +46,16 @@ table {
 
 /*
   ========================================
+  Custom
+  ========================================
+*/
+
+body {
+  font: 300 16px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ========================================
   Grid
   ========================================
 */
@@ -84,6 +94,7 @@ table {
 }
 .col-3-4 {
   width: 70%;
+  border-right: 1px solid blue;
 }
 
 /*
@@ -124,7 +135,6 @@ a {
   ========================================
 */
 .header {
-  background: #6f3680;
   padding: 50px 0 10px 0;
 }
 .logo {
@@ -151,13 +161,23 @@ a {
   Signup
   ========================================
 */
-
 .signup {
-
+  box-shadow: 0 0 5px #999;
+  padding-top: 45px;
 }
-.info-box {
-  border: 1px solid blue;
-  background: gray;
+h1 {
+  margin-bottom: 22px;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+}
+h2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
 }
 input,
 select,
@@ -174,8 +194,12 @@ textarea {
   margin: 5px 0 27px 0;
   padding: 5px 8px;
 }
+
+.account-info label {
+  line-height: 200%;
+}
 .account-info input {
-  width: 100%;
+  width: 65%;
 }
 
 .account-action label {
@@ -183,3 +207,21 @@ textarea {
   display: block;
 
 }
+
+.info-box {
+  background: #ededed;
+  height: 500px;
+  padding: 10px;
+}
+
+.info-box ul {
+  padding-left: 15px;
+
+}
+
+.info-box li {
+  font-size: 12px;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
