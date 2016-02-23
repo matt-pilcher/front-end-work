@@ -106,9 +106,25 @@ h1 {
 
 /*
   ========================================
-  Links
+  Images
   ========================================
 */
+.icon {
+  width: 18px;
+  padding-top: 5px;
+  margin: 0 5px -5px 0;
+}
+.mag-glass {
+  width: 21px;
+  padding-top: 1px;
+  margin: 0 5px -4px 0;
+}
+.menu {
+  width: 18px;
+  margin: 0 5px -2px 0;
+
+}
+
 
 
 /*
@@ -117,6 +133,7 @@ h1 {
   ========================================
 */
 .primary-header {
+  background: #fff;
   padding: 10px 180px 10px 5px;
   border-bottom: 1px solid #CCCCCC;
   
@@ -142,10 +159,12 @@ h1 {
   background: #326891;
 } 
 .subscribe {
-  width: 100px;
+  margin-top: 2px;
+  width: 110px;
 } 
 .login {
-  width: 50px;
+  margin-top: 2px;
+  width: 60px;
 }
 /*
   ========================================
@@ -156,8 +175,24 @@ h1 {
 .nav {
   display: inline-block;
 }
-
-.nav li {
+.sections {
+  background: #fff;
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  margin-right: 50px;
+  display: inline-block;
+  position: relative;
+  left: -15px;
+  -webkit-box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
+     -moz-box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
+      box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
+}
+.home {
+  padding: 0 5px 5px 5px; 
+  display: inline-block;
+}
+.search {
   display: inline-block;
 }
 
