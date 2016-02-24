@@ -59,6 +59,8 @@ body {
   font-family: sans-serif;
   width: 97%;
   margin-left: 3%;
+  margin-top: -15px;
+
   
   -webkit-box-shadow: -3px 0px 10px 0px #CCCCCC;
      -moz-box-shadow: -3px 0px 10px 0px #CCCCCC;
@@ -110,7 +112,7 @@ h1 {
 }
 h4 {
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 /*
@@ -131,7 +133,9 @@ h4 {
 .menu {
   width: 16px;
   margin: 0 10px -3px 0;
-
+}
+.article-image {
+  padding: 0 0 20px 90px;
 }
 
 
@@ -142,6 +146,8 @@ h4 {
   ========================================
 */
 .primary-header {
+  position: fixed;
+  width: 100%;
   background: #fff;
   padding: 7px 180px 7px 5px;
   border-bottom: 1px solid #CCCCCC;
@@ -168,9 +174,11 @@ h4 {
   background: #326891;
 } 
 .subscribe {
+  margin-top: 2px;
   width: 110px;
 } 
 .login {
+  margin-top: 2px;
   width: 60px;
 }
 /*
@@ -232,11 +240,11 @@ h4 {
 
 .article {
   margin-top: 15px;
-  padding: 10px 70px;
+  padding: 80px 70px 10px 70px;
 }
 .text-container {
   padding: 10px 470px 10px 110px;
 }
-
-
-
+iframe {
+  padding: 0 0 20px 90px
+}
