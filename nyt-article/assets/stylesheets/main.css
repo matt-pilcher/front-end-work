@@ -173,12 +173,16 @@ h4 {
 .btn:hover {
   background: #326891;
 } 
-.subscribe {
-  margin-top: 2px;
-  width: 110px;
-} 
+.subscribe,
 .login {
+  border: 1px solid #6288a5;
   margin-top: 2px;
+}
+.subscribe {
+  margin-right: 5px;
+  width: 110px;
+}
+.login {
   width: 60px;
 }
 /*
@@ -202,6 +206,7 @@ h4 {
   display: inline-block;
   position: relative;
   left: -15px;
+  
   -webkit-box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
      -moz-box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
       box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
@@ -231,7 +236,6 @@ h4 {
   background: #F5F5F5;
 }
 
-
 /*
   ========================================
   Article
@@ -248,3 +252,13 @@ h4 {
 iframe {
   padding: 0 0 20px 90px
 }
+.light { 
+  border: 0; 
+  height: 0; 
+  border-top: 1px 
+  solid rgba(0, 0, 0, 0.3); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+
+
