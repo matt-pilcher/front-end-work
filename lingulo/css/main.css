@@ -53,13 +53,18 @@ figcaption strong {
 	display: block;
 }
 
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
 header {
-	position:relative;
-	width:auto;
-	max-width:900px;
+	position: relative;
+	width: auto;
+	max-width: 900px;
 	margin: 0 auto 20px auto;
 }
-
 header h1 {
 	margin: 35px 0 0 0;
 	font-size: 55px;
@@ -69,24 +74,36 @@ header h1 {
 header p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	color: #4A463B;
-	margin-left:132px;
+	color: #4a463b;
+	margin-left: 132px;
 }
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
 nav ul {
-	list-style:none;
+	list-style: none;
 }
 nav ul li {
-	display:block;
-	float:left;
-	padding:3px 15px;
+	display: block;
+	float: left;
+	padding: 3px 15px;
 }
-nav ul li a {
+.nav-links {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	transition: all .25s ease;
 }
-nav ul li a:hover {
-	color: #E56038;
+.nav-links:hover {
+	color: #e56038;
 }
 
+/*
+  ========================================
+  Slider
+  ========================================
+*/
 
