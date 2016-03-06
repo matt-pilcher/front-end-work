@@ -427,6 +427,11 @@ footer .wrapper .column h4 {
 	clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
 	clip: rect(1px, 1px, 1px, 1px);
 }
+#slider_content1 p .responsive_button,
+#slider_content2 p .responsive_button, 
+#slider_content3 p .responsive_button {
+	display: none;
+}
 
 
 
