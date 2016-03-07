@@ -432,6 +432,25 @@ footer .wrapper .column h4 {
 #slider_content3 p .responsive_button {
 	display: none;
 }
+@media (max-width: 1215px) {
+	#slider_content1, #slider_content2, #slider_content3 {
+		width:auto;
+		margin-right:50px;
+	}
+	#slider_content1 h3, #slider_content2 h3, #slider_content3 h3{
+		font-size:18px;
+	}
+	#slider_content1 p, #slider_content2 p, #slider_content3 p {
+		font-size:14px;
+	}
+	#slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p .responsive_button {
+		display:inline;
+		color:#000;
+	}
+	.container .button{
+		display:none;
+	}
+}
 
 
 
