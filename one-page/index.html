@@ -12,16 +12,23 @@
 	  <!-- Optional theme -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" 
 	  integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="custom.css">
   </head>
   
   <body>
-    <!-- Navbar -->
-  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-  		<section class="container">
+  	<header class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+  		<nav class="container">
   			<div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
   				<a href="" class="navbar-brand">One-Page</a>
   			</div>
-				<!-- Navbar Header-->
+
   			<div class="collapse navbar-collapse" id="navbar-collapse">
   			<a href="" class="btn btn-warning navbar-btn navbar-right">Download Now</a>
   				<ul class="nav navbar-nav">
@@ -30,7 +37,19 @@
   					<li><a href="#contact">Contact</a> 
   				</ul>
   			</div>
-  		</div>
-  	</nav>
+  		</nav>
+  	</header>
+
+    <section class="jumbotron">
+      <article class="container text-center">
+        <h1>One-Page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur </p>
+
+        <div class="btn-group">
+          <a href="" class="btn btn-lg btn-warning">Download Now</a>
+          <a href="" class="btn btn-lg btn-default">Learn More</a>
+        </div>
+      </article>
+    </section>
   </body>
 </html>
