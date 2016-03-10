@@ -4,5 +4,19 @@ body {
 #byline {
 	margin-bottom: 100px;
 }
+.main-header {
+	background: #5c5966;
+}
+.jumbotron {
+	background: #94907f;
+}
+.articles {
+	padding-top: 60px;
+}
+.showcase {
+	height: 200px;
+	width: 400px;
+	border-radius: 2px;
+}
 
 
