@@ -1,4 +1,7 @@
 body {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Playfair Display', serif;
 	padding-top: 90px;
 }
 header {
@@ -11,8 +14,14 @@ header {
   left: 0;
 }
 nav {
+	font-family: 'Source Sans Pro', sans-serif;
 	float: right;
 	padding: 32px 10px;
+}
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
 }
 li {
 	color: #fff;
