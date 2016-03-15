@@ -38,15 +38,6 @@ li {
 	padding-right: 10px;
 	display: inline-block;
 }
-a {
-	text-decoration: none;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-a:hover {
-	color: #666;
-}
 .nav-border {
 	height: 80px;
 	border-left: 1px solid red;
@@ -63,6 +54,9 @@ a:hover {
 	border-left: 1px solid #666;
 	float: right;
 }
+.subscribe:hover {
+	color: #b2b200;
+}
 .location {
 	padding: 24px 25px;
 	border-left: 1px solid #666;
@@ -70,11 +64,26 @@ a:hover {
 }
 .signin {
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #fff;
+	color: #e7e7db;
 	font-weight: 700;
 	padding: 29px 15px;
 	border-left: 1px solid #666;
 	float: right;
+}
+.signin:hover {
+	color: #666;
+}
+.fa-search {
+	color: #fff;
+}
+.fa-search:hover {
+	color: #666;
+}
+.fa-map-marker {
+	color: #fff
+}
+.fa-map-marker:hover {
+	color: #666;
 }
 
 /*
@@ -108,9 +117,18 @@ p {
 strong {
 	color: #ff5500;
 }
-.fa-search {
-	color: #fff;
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a {
+	text-decoration: none;
+	color: #e7e7db;
+	text-transform: uppercase;
+	font-weight: bold;
 }
-.fa-map-marker {
-	color: #fff
+a:hover {
+	color: #666;
 }
