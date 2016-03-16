@@ -7,11 +7,61 @@ body {
 	font-size: 16px;
 	line-height: 22px;
 	font-family: 'Playfair Display', serif;
-	padding: 120px 10px 20px 120px;
+	padding: 120px 0 20px 0;
 }
 img {
+	max-width: 100%;
+	height: auto;
 	margin-bottom: 22px;
 }
+.video-container {
+	position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 10px;
+  height: 0;
+  overflow: hidden;
+}
+iframe {
+	position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+.container,
+.grid {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.grid,
+.col-5-8,
+.col-3-8 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-5-8,
+.col-3-8  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-5-8 {
+  width: 62.5%;
+}
+.col-3-8 {
+  width: 37.5%;
+  border-right: 1px solid #d3d3d3;
+}
+
 
 
 /*
@@ -105,7 +155,8 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-	font-weight: bold;
+	font-weight: 700;
+	line-height: 130%;
 	margin-bottom: 20px;
 	font-size: 44px;
 }
@@ -192,6 +243,12 @@ a:hover {
   }
   nav:hover ul {
     display: block;
+  }
+  .col-3-8 {
+  	display: none;
+  }
+  .col-5-8 {
+  	width: 100%;
   }
 }
 
