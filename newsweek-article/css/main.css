@@ -30,7 +30,7 @@ header {
   left: 0;
 }
 nav {
-	float: left;
+	float: right;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 29px 10px;
 }
@@ -43,7 +43,6 @@ li {
 	border-left: 1px solid red;
 }
 .logo {
-	padding-right: 15px;
 	float: left;
 }
 .mobile-logo {
@@ -87,6 +86,12 @@ li {
 }
 .fa-map-marker:hover {
 	color: #666;
+}
+#menu-icon {
+	display: none;
+}
+.fa-bars {
+	display: none;
 }
 
 /*
@@ -145,14 +150,48 @@ a:hover {
 	.logo {
 		display: none;
 	}
-}
-
-@media screen and (max-width: 1279px) {
 	.mobile-logo {
 		height: 80px;
 		display: block;
 		padding-right: 15px;
 		float: left;
 	}
+}
+
+@media screen and (max-width: 1100px) {
+	.subscribe,
+	.location, 
+	.signin {
+		display: none;
+	}
+	#menu-icon {
+		border-left: 1px solid #666;
+		padding: 20px 20px;
+		display: block; 
+		margin-top: -29px;
+    height: 40px;
+    float: left;
+  }
+ 
+  nav ul, 
+  nav:active ul { 
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #252a1c;
+    border: 1px solid #ff9e00;
+    right: 20px;
+    top: 60px;
+    width: 20%;
+    border-radius: 4px 0 4px 4px;
+  }
+  nav li {
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+  nav:hover ul {
+    display: block;
+  }
 }
 
