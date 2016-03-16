@@ -30,12 +30,12 @@ header {
   left: 0;
 }
 nav {
-	float: right;
+	float: left;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 29px 10px;
 }
 li {
-	padding-right: 10px;
+	padding-right: 20px;
 	display: inline-block;
 }
 .nav-border {
@@ -43,14 +43,17 @@ li {
 	border-left: 1px solid red;
 }
 .logo {
-	padding-right: 30px;
+	padding-right: 15px;
 	float: left;
+}
+.mobile-logo {
+	display: none;
 }
 .subscribe {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #e5e500;
 	font-weight: 700;
-	padding: 29px 15px;
+	padding: 29px 25px;
 	border-left: 1px solid #666;
 	float: right;
 }
@@ -58,7 +61,7 @@ li {
 	color: #b2b200;
 }
 .location {
-	padding: 24px 25px;
+	padding: 24px 30px;
 	border-left: 1px solid #666;
 	float: right;
 }
@@ -66,7 +69,7 @@ li {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #e7e7db;
 	font-weight: 700;
-	padding: 29px 15px;
+	padding: 29px 30px;
 	border-left: 1px solid #666;
 	float: right;
 }
@@ -132,3 +135,24 @@ a {
 a:hover {
 	color: #666;
 }
+
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+@media screen and (max-width: 1280px) {
+	.logo {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.mobile-logo {
+		height: 80px;
+		display: block;
+		padding-right: 15px;
+		float: left;
+	}
+}
+
