@@ -29,15 +29,16 @@ iframe {
   height: 100%;
 }
 .info-box {
-	margin-top: 20px;
-	width: 50px;	
-	border: 1px solid #000;
-	float: right;
+	margin: 20px 0 80px 0;
+	padding: 20px;
+	width: 200px;	
+	border: 1px solid #c1c1c1;
+	float: left;
 }
 .section-tab {
-	margin-left: -25px;
-	border-bottom: 1px solid #666;
-	border-right: 1px solid #666;
+	margin: -20px 0 0 -20px;
+	border-bottom: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
 	padding: 20px 15px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -48,19 +49,24 @@ iframe {
 }
 .link-item {
 	padding: 10px 4px 10px 20px;
-	list-style-type: square;
-	border-bottom: 1px solid #666;
+	border-bottom: 1px solid #c1c1c1;
+}
+.link-item:before {
+	padding-right: 8px;
+	margin-left: -20px;
+  content: "■";
+  color: #a5b3e5;
 }
 .link-item:last-child {
 	border-style: none;
 }
-
 
 /*
   ========================================
   Grid
   ========================================
 */
+
 .container,
 .grid {
   margin: 0 auto;
@@ -86,7 +92,8 @@ iframe {
   width: 62.5%;
 }
 .col-3-8 {
-  width: 20%;
+	float: right;
+  width: 25%;
 }
 
 
