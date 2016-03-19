@@ -1,67 +1,4 @@
-/*
-  ========================================
-  Universal
-  ========================================
-*/
-body {
-	font-size: 16px;
-	line-height: 22px;
-	font-family: 'Playfair Display', serif;
-	padding: 120px 0 20px 0;
-}
-img {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 22px;
-}
-.video-container {
-	position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 10px;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 82px;
-}
-iframe {
-	position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.info-box {
-	margin: 20px 0 80px 0;
-	padding: 20px;
-	width: 200px;	
-	border: 1px solid #c1c1c1;
-	float: left;
-}
-.section-tab {
-	margin: -20px 0 0 -20px;
-	border-bottom: 1px solid #c1c1c1;
-	border-right: 1px solid #c1c1c1;
-	padding: 20px 15px;
-	text-transform: uppercase;
-	font-weight: 700;
-	width: 100px;
-}
-.link-section {
-	padding: 10px 5px 5px 5px;
-}
-.link-item {
-	padding: 10px 4px 10px 20px;
-	border-bottom: 1px solid #c1c1c1;
-}
-.link-item:before {
-	padding-right: 8px;
-	margin-left: -20px;
-  content: "■";
-  color: #a5b3e5;
-}
-.link-item:last-child {
-	border-style: none;
-}
-.comments {
-	
-}
+
 
 /*
   ========================================
@@ -182,6 +119,89 @@ nav li {
 
 /*
   ========================================
+  Body
+  ========================================
+*/
+body {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Playfair Display', serif;
+	padding: 120px 0 20px 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 22px;
+}
+.video-container {
+	position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 10px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 82px;
+}
+iframe {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.info-box {
+	margin: 20px 0 80px 0;
+	padding: 20px;
+	width: 200px;	
+	border: 1px solid #c1c1c1;
+	float: left;
+}
+.section-tab {
+	margin: -20px 0 0 -20px;
+	border-bottom: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+	padding: 20px 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 100px;
+}
+.link-section {
+	padding: 10px 5px 5px 5px;
+}
+.link-item {
+	padding: 10px 4px 10px 20px;
+	border-bottom: 1px solid #c1c1c1;
+}
+.link-item:before {
+	padding-right: 8px;
+	margin-left: -20px;
+  content: "■";
+  color: #a5b3e5;
+}
+.link-item:last-child {
+	border-style: none;
+}
+.comments {
+}
+#comment-count {
+	display: inline-block;
+}
+#comment-sort {
+	float: right;
+}
+#sort {
+	border-radius: 2px;
+	border: 1px solid #666;
+}
+#avatar {
+	float: left;
+	padding-right: 15px;
+}
+#comment-box {
+	width: 90%;
+	height: 200px;
+	margin-bottom: 22px;
+}
+
+/*
+  ========================================
   Typography
   ========================================
 */
@@ -211,6 +231,11 @@ p {
 }
 strong {
 	color: #ff5500;
+}
+#discussion {
+	font-weight: 700;
+	font-size: 26px;
+	margin-bottom: 12px;
 }
 
 /*
@@ -287,4 +312,3 @@ a:hover {
   	width: 100%;
   }
 }
-
