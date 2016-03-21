@@ -35,8 +35,6 @@
   width: 25%;
 }
 
-
-
 /*
   ========================================
   Header
@@ -147,15 +145,17 @@ iframe {
   height: 100%;
 }
 .info-box {
-	margin: 20px 0 80px 0;
+	margin: 80px 0 80px 0;
 	padding: 20px;
-	width: 200px;	
+	width: 220px;	
 	border: 1px solid #c1c1c1;
 	float: left;
 }
 .section-tab {
-	margin: -20px 0 0 -20px;
-	border-bottom: 1px solid #c1c1c1;
+	margin: -83px 0 0 -21px;
+	background: #fff;
+	border-top: 1px solid #c1c1c1;
+	border-left: 1px solid #c1c1c1;
 	border-right: 1px solid #c1c1c1;
 	padding: 20px 15px;
 	text-transform: uppercase;
@@ -198,6 +198,9 @@ iframe {
 	width: 90%;
 	height: 200px;
 	margin-bottom: 22px;
+}
+footer {
+	border-top: 2px solid #ff8000;
 }
 
 /*
