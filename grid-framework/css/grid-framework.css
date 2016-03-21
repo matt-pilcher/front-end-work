@@ -1,0 +1,44 @@
+.grid-container {
+	width: 100%;
+	max-width: 1200px;
+	box-sizing: border-box;
+}
+
+/*-- Clearfix --*/
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height: 1px;
+	width: 16.66%;
+	padding: 12px;
+}
+.col-1 {
+	width: 12.50%;
+}
+.col-2 {
+	width: 25%;
+}
+.col-3 {
+	width: 37.50%;
+}
+.col-4 {
+	width: 50%;
+}
+.col-5 {
+	width: 62.50%;
+}
+.col-6 {
+	width: 75%;
+}
+.col-7 {
+	width: 87.50%;
+}
+.col-8 {
+	width: 100%
+}
