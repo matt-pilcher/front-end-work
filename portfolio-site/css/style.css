@@ -1,0 +1,41 @@
+/*
+  ========================================
+  Universal
+  ========================================
+*/
+
+body {
+  font: 300 16px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1 {cd
+  color: #2a2a2a;
+  margin-bottom: 22px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 44px;
+  padding-right: 44px;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+}
