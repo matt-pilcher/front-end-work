@@ -1,6 +1,6 @@
 /*
   ========================================
-  Main
+  Clearfix
   ========================================
 */
 
@@ -15,6 +15,21 @@
 }
 .row:after {
   clear: both;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.col {
+  position: relative;
+  float: left;
+}
+/* Every adjacent column will have this margin */
+.col + .col {
+  margin-left: 1.6%;
 }
 .col-1 {
   width: 8.3187%;
@@ -60,7 +75,27 @@
   ========================================
 */
 
-
+@media screen and (max-width: 480px) {
+  .col-1, 
+  .col-2, 
+  .col-3, 
+  .col-4, 
+  .col-5, 
+  .col-6, 
+  .col-7, 
+  .col-8, 
+  .col-9, 
+  .col-10, 
+  .col-11, 
+  .col-12 {
+    width: auto;
+    float: none;
+  }
+  /* Remove the margin for mobile */
+  .col + .col {
+    margin-left: 0;
+  }
+}
 
 
 
