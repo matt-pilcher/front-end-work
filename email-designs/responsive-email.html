@@ -8,6 +8,9 @@
   <style>
     /* 600 px is the max width of the content */
     @media only screen and (max-width: 599px) {
+      td[class="main_nav"] td {
+        display: inline-block;
+      }
       td[class="responsive"] table { width: 100%; }
       td[class="responsive"] img {
         width: 100%;
@@ -17,6 +20,7 @@
         width: 50%;
       }
     }
+
     /* Bring the photo below the content */
     @media only screen and (max-width: 450px) {
       td[class="responsive"] .col {
@@ -36,11 +40,20 @@
         max-width: 300px;
       }
     }
+
+    /* Main display image shrinks for every size */
+    .header img { width: 100%; height: auto !important; }
   </style>
   
 </head>
 <body>
+  <!-- Container -->
   <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="header">
+        <img src="http://i.imgur.com/UjjoE7B.jpg" alt="" style="display: block; border: 0;" />
+      </td>
+    </tr>
     <tr>
       <td class="responsive" border="0" width="600" align="center">
         <!-- Article Container -->
@@ -79,7 +92,7 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="center" style="padding: 0 10px;">
-                          <img src="http://placehold.it/400x110&text=Image" width="300" alt="" style="display: block;" />
+                          <img src="http://i.imgur.com/4KaI67G.jpg" width="300" alt="" style="display: block; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;" />
                         </td>
                       </tr>
                     </table>
@@ -116,7 +129,7 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="center" style="padding: 0 10px;">
-                          <img src="http://placehold.it/400x110&text=Image" width="300" alt="" style="display: block;" />
+                          <img src="http://i.imgur.com/bWoswsx.jpg" width="300" alt="" style="display: block; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;" />
                         </td>
                       </tr>
                     </table>
@@ -153,7 +166,7 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="center" style="padding: 0 10px;">
-                          <img src="http://placehold.it/400x110&text=Image" width="300" alt="" style="display: block;" />
+                          <img src="http://i.imgur.com/ryb2Alm.jpg" width="300" alt="" style="display: block; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;" />
                         </td>
                       </tr>
                     </table>
